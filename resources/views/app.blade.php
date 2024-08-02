@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     @vite('resources/js/app.js')
     @inertiaHead
+    <style>
+      html, body {
+        width: 100%;
+        height: 100vh;
+      }
+      body {
+      }
+    </style>
   </head>
   <body>
     @inertia
